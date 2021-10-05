@@ -8,7 +8,7 @@ console.log(n)
 
 let m = 5;
 let conversation = '';
-while (m>0) {
+while (m > 0) {
     console.log('one for me. ');
     conversation += "one for me \m";
     m--;
