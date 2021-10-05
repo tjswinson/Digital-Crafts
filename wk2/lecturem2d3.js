@@ -9,12 +9,13 @@ console.log(n)
 let m = 5;
 let conversation = '';
 while (m > 0) {
-    console.log('${m} cookie: me. ');
-    conversation += "one for me \m";
-    m--;
+    if (n % 2 !== 0) {
+    console.log('${m} cookie: me');
+    conversation += "one for me. \m";
+    } else {
     console.log('${m} cookie: you')
     conversation += "one for you \m";
+    }
     m--;
 }
-
 
