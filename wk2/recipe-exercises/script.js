@@ -1,4 +1,4 @@
-function marinaraSauce(cookName) {
+gifunction marinaraSauce(cookName) {
     var two = 2;
     var oneFourth = "1/4";
     console.log("Hey, " + cookName + "! This is my favorite marinara sauce recipe!" );

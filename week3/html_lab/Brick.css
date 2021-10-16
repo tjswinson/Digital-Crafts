@@ -1,0 +1,21 @@
+.container {
+  border: 10px gray;
+}
+.grid-container {
+      display: grid;
+  grid-template-columns: repeat(12, 40px);
+  grid-template-row: repeat(12, 5px);
+    border: ;
+}
+    .cell {border: 1px solid black;
+      background: red; 
+}
+.item {border: 1px solid black;
+      background: yellow;
+    }
+.item-1{ background: black;}
+.cell-1 {border: 1px solid black;
+  background: green;}
+.cell-2 {border: 1px solid black;
+      background: blue;
+}
