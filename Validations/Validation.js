@@ -25,7 +25,7 @@ form.addEventListener('submit', function (e) {
 
     }
 });
-console.log("submitted");
+
 
 
 const isRequired = value => value === '' ? false : true;
